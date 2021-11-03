@@ -13,7 +13,6 @@ body {
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
   background-color: #e74c3c;
-}
 
 a:hover,
 a:focus,
@@ -161,6 +160,8 @@ button:focus {
 }
 .tm-slider-img {
   width: 100%;
+ object-fit: cover;
+ height: 480px;
 }
 
 .tm-slider-img,
